@@ -8,4 +8,5 @@ Install pytest
 Run the test
 `pytest tests/unit.py`{{execute}}
 
+Some tests may fail if you run the test again
 
