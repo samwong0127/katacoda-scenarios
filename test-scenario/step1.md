@@ -9,5 +9,8 @@ Clone the repository from GitHub (you may need to login GitHub)
 Go inside the repository
 `cd COMP3122-project`{{execute}}
 
+Upgrade docker-compose
+`pip install --upgrade docker-compose`{{execute}}
+
 Run the application:
 `docker-compose up`{{execute}}
