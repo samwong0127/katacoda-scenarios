@@ -1,1 +1,1 @@
-Welcome to my Katacoda Scenarios ! I will be testing the app
+Welcome to the Katacoda Scenarios of our application! I will be testing the app
