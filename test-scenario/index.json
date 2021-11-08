@@ -1,8 +1,8 @@
 {
-  "title": "katacoda-test",
-  "description": "skipped",
+  "title": "Fatboy Eat setup with Katacoda",
+  "description": "This lab is a tutorial to set up and run our application",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
