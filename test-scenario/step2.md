@@ -1,9 +1,11 @@
 ## Test the appliction
 
-Open a new terminal
+1. Open a new terminal
 
-Install pytest
+2. Install pytest
+
 `pip install pytest`{{execute}}
 
-Run the test
+3. Run the test
+
 `pytest tests/unit.py`{{execute}}
