@@ -1,16 +1,19 @@
 
 
-## Task 1
+## To build the application
 
-Clone the repository from GitHub (you may need to login GitHub)
+1. Clone the repository from GitHub (you may need to login GitHub)
 
 `git clone https://github.com/samwong0127/FatboyEat.git`{{execute}}
 
-Go inside the repository
+2. Go inside the repository 
+
 `cd FatboyEat`{{execute}}
 
-Upgrade docker-compose
+3. Upgrade docker-compose becasue the original one is too old
+
 `pip install --upgrade docker-compose`{{execute}}
 
-Run the application:
+4. Run the application:
+
 `docker-compose up`{{execute}}
