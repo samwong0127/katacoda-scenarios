@@ -1,3 +1,3 @@
-# THIS is used to test katacoda
+# This is used to run katacoda
 
 
