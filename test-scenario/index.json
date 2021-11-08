@@ -21,8 +21,8 @@
       "text": "finish.md"
     }
   },
-  "environment": {"uilayout": "2x-terminal"},
+  "environment": {"uilayout": "2x terminal"},
   "backend": {
-    "imageid": "python 3.8"
+    "imageid": "python:3.8"
   }
 }
