@@ -33,9 +33,8 @@
     "showdashboard": true,
     "dashboards": [
       {"name": "Port 80", "port": 80},
-      {"name": "Grafana1", "href": "http://localhost:3000"},
-      {"name": "Grafana2", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"},
-      {"name": "Prometheus", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"}
+      {"name": "Grafana", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"},
+      {"name": "Prometheus", "href": "https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com"}
     
     ],
     "uilayout": "terminal-iframe"
