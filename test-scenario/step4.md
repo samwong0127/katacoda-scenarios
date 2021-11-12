@@ -1,7 +1,8 @@
 ## Grafana and Prometheus
 
 1. Open a new window
-visit `https//localhost:20080/metrics`
+visit `http://localhost:20080/metrics`
+or `curl http://localhost:20080/metrics`
 
 2. Then Go inside the repository 
 `cd FatboyEat`{{execute}}
