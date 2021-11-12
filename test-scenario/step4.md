@@ -1,14 +1,8 @@
 ## Grafana and Prometheus
 
-1. Open a new window
-visit `http://localhost:20080/metrics`
-or `curl http://localhost:20080/metrics`
+Open a new window or click 'Grafana' which is on the right of the terminal to access Grafana
 
-2. Then Go inside the repository 
-`cd FatboyEat`{{execute}}
+In new terminal
+`curl http://localhost:20080/metrics` to get the metrics
 
-3. Upgrade docker-compose becasue the original one is too old
-`pip install --upgrade docker-compose`{{execute}}
 
-4. Run the application:
-`docker-compose up`{{execute}}
