@@ -4,6 +4,8 @@
 
 Visit https://www.katacoda.com/samwong0127 to view the profile and interactive scenarios
 
+Visit https://www.katacoda.com/samwong0127/scenarios/test-scenario for the test scenario
+
 ### Writing Scenarios
 Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
 
