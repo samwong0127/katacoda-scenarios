@@ -34,7 +34,7 @@
     "dashboards": [
       {"name": "Grafana", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"},
       {"name": "Prometheus", "href": "https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com"},
-      {"name": "Prometheus targets", "href": "https://[[HOST_SUBDOMAIN]]-9090/targets-[[KATACODA_HOST]].environments.katacoda.com"}
+      {"name": "Prometheus alert manager", "href": "https://[[HOST_SUBDOMAIN]]-9093-[[KATACODA_HOST]].environments.katacoda.com"}
     
     ],
     "uilayout": "terminal-iframe"
