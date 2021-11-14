@@ -5,7 +5,7 @@ Open a new window or click 'Kibana', which is on the right of the terminal to ac
 1.  View the Kibana at localhost:5601:
     https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com
 
-2.  Login using username `elastic` and password `password`.
+2.  Login using username `elastic` and password `changeme`.
     ![Katacoda Logo](./assets/step4/kibana-01.jpg)
 
 3.  Click `Discover` in the menu bar. Then type `weblog` in index pattern. Click the `Next step` button.
