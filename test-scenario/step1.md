@@ -8,7 +8,7 @@
 2. Then Go inside the repository 
 `cd FatboyEat`{{execute}}
 
-3. Upgrade docker-compose becasue the original one is too old
+3. Upgrade docker-compose
 `pip install --upgrade docker-compose`{{execute}}
 
 4. Run the application:
