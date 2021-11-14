@@ -7,10 +7,10 @@ Run
 `curl http://localhost:20080/menu/stores/00001/menus`{{execute}}
 to get the menu of store: 00001
 
-`curl -X POST -d '{'store_id':'12345', 'store_name':'A store', 'dishes_id':'12345', 'dishes_name':'A dish', 'price':10, 'avaliability':true"}' http://localhost:20080/menu/stores/00001/menus`{{execute}}
+`curl -i -H "Content-Type: application/json" -H "Accept: */*" -H "Connection: keep-alive" -H "Content-Type: application/json" -X POST -d '{'store_id':'12345', 'store_name':'A store', 'dishes_id':'12345', 'dishes_name':'A dish', 'price':10, 'avaliability':true}' http://localhost:20080/menu/stores/00001/menus`{{execute}}
 to create or update the menu for a specific store.
 
-`curl -X POST -d '{'store_id':'00001', 'store_name':'A store', 'dishes_id':'00001', 'dishes_name':'A dish', 'price':10, 'avaliability':true"}' http://localhost:20080/menu/stores/00001/menus/dishes/00001`{{execute}}
+`curl -X POST -d '{'store_id':'00001', 'store_name':'A store', 'dishes_id':'00001', 'dishes_name':'A dish', 'price':10, 'avaliability':true}' http://localhost:20080/menu/stores/00001/menus/dishes/00001`{{execute}}
 to update an individual item within a menu.
 
 `curl -X DELETE http://localhost:20080/menu/stores/00001/menus/dishes/00001`{{execute}} to delete an individual item within a menu.
