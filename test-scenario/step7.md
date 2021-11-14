@@ -58,4 +58,4 @@ Open a new window
         ![Katacoda Logo](./assets/step7/Prometheus_Alertmanger.jpg)
 
 7.  Remove all the container and images.
-    `docker-compose down -v --rmi all` {{execute}}
+    `docker-compose down -v --rmi all`{{execute}}
