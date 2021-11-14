@@ -50,7 +50,7 @@ Here is all our API endpoints:
 - Return a JSON object with all the menus’ attributes of a store:
     - GET ``/stores/<store_id>/menus`` 
 - Create or update the entire menu for a specific store:
- - POST ``/stores/<store_id>/menus`` 
+    - POST ``/stores/<store_id>/menus`` 
 - Updates an individual item within a menu:
     - POST ``/stores/<store_id>/menus/dishes/<dishes_id>``
 - Delete an individual item within a menu:
