@@ -13,6 +13,6 @@
     If all the test are passed, the terminal will display '30 passed'.
     ![Katacoda Logo](./assets/step2/pytest1.jpg)
 
-4.  Run the test to show all the detail
+4.  Run the test to show all the details
     `pytest -v tests/unit.py`{{execute}}
     ![Katacoda Logo](./assets/step2/pytest2.jpg)
