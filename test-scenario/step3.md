@@ -44,32 +44,32 @@ If an error returns, try add a header by adding
 in front of the link
 
 Here is all our API endpoints:
-### Menu <br />
-Return a JSON object with all attributes of all menu sort by menu_id:<br />
-- GET ``/menus`` <br />
-Return a JSON object with all the menus’ attributes of a store:<br />
-- GET ``/stores/<store_id>/menus`` <br />
-Create or update the entire menu for a specific store:<br />
-- POST ``/stores/<store_id>/menus`` <br />
-Updates an individual item within a menu:<br />
-- POST ``/stores/<store_id>/menus/dishes/<dishes_id>``<br />
-Delete an individual item within a menu:<br />
-- DELETE ``/stores/<store_id>/menus/dishes/<dishes_id>``
+### Menu 
+- Return a JSON object with all attributes of all menu sort by menu_id:
+    - GET ``/menus`` 
+- Return a JSON object with all the menus’ attributes of a store:
+    - GET ``/stores/<store_id>/menus`` 
+- Create or update the entire menu for a specific store:
+ - POST ``/stores/<store_id>/menus`` 
+- Updates an individual item within a menu:
+    - POST ``/stores/<store_id>/menus/dishes/<dishes_id>``
+- Delete an individual item within a menu:
+    - DELETE ``/stores/<store_id>/menus/dishes/<dishes_id>``
 
-### Order <br />
-Return a JSON object with all attributes of all orders:<br />
-- GET ``/orders``<br />
-Return a JSON object with all the orders’ attributes of a orderID:<br />
-- GET ``/orders/<order_id>/list``<br />
-Add an order for a specific store:<br />
-- POST ``/addorder/stores/<storeID>``<br />
-Delete an order for a specific store:<br />
-- DELETE ``/deleteorder/orders/<OrderID>``
+### Order 
+- Return a JSON object with all attributes of all orders:
+    - GET ``/orders``
+- Return a JSON object with all the orders’ attributes of a orderID:
+    - GET ``/orders/<order_id>/list``
+- Add an order for a specific store:
+    - POST ``/addorder/stores/<storeID>``
+- Delete an order for a specific store:
+    - DELETE ``/deleteorder/orders/<OrderID>``
 
-### Store <br />
-Return a JSON object with all attributes of all store sort by store_id:<br />
-- GET ``/stores``<br />
-Return a JSON object with all attributes of a specific store:<br />
-- GET ``/stores/<store_id>``<br />
-Return a JSON object with all attributes of a store with a specific category:<br />
-- GET ``/stores/category/<categories>``
+### Store 
+- Return a JSON object with all attributes of all store sort by store_id:
+    - GET ``/stores``
+- Return a JSON object with all attributes of a specific store:
+    - GET ``/stores/<store_id>``
+- Return a JSON object with all attributes of a store with a specific category:
+    - GET ``/stores/category/<categories>``
