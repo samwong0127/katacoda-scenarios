@@ -1,7 +1,5 @@
 ## Grafana
 
-Open a new window or click 'Grafana' which is on the right of the terminal to access Grafana
-
 1.  View the Grafana at localhost:3000:
     https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com
 

@@ -1,7 +1,5 @@
 ## Prometheus
 
-Open a new window or click 'Prometheus' which is on the right of the terminal to access Prometheus
-
 1.  View the Prometheus at localhost:9090:
     https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com
 
