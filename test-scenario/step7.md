@@ -15,7 +15,7 @@
 
 5.  Now, we simulate there is too many error response (4xx/5xx).
     1.  Back to the Katacoda webpage, open a new terminal.
-        ![Katacoda Logo](./assets/step7/New_Terminal.JPG)
+        ![Katacoda Logo](./assets/step7/Terminal.jpg)
 
     2.  Run few error request to make the error reponse > 5%
         `curl http://localhost:20080/menu/stores/123/menus`{{execute}}
@@ -38,7 +38,7 @@
 
 6.  Now, we simulate there is a micoservice "DOWN".
     1.  Back to the Katacoda webpage, open a new terminal.
-        ![Katacoda Logo](./assets/step7/New_Terminal.JPG) 
+        ![Katacoda Logo](./assets/step7/Terminal.jpg) 
 
     2.  Remove either one microservice container
         `docker rm -f api_menu`{{execute}}
