@@ -33,7 +33,7 @@ to get all stores info
 `curl http://localhost:20080/store/stores/00001`{{execute}}
 to get info of store with ID 00001.
 
-`curl http://localhost:20080/store/category/Japanese`{{execute}}
+`curl http://localhost:20080/store/stores/category/Japanese`{{execute}}
 to get all attributes of a store with a specific category
 
 If an error returns, try add a header by adding
