@@ -44,7 +44,7 @@ If an error returns, try add a header by adding
 in front of the link
 
 Here is all our API endpoints:
-### Menu
+### Menu <br />
 Return a JSON object with all attributes of all menu sort by menu_id:<br />
 - GET ``/menus`` <br />
 Return a JSON object with all the menus’ attributes of a store:<br />
@@ -56,7 +56,7 @@ Updates an individual item within a menu:<br />
 Delete an individual item within a menu:<br />
 - DELETE ``/stores/<store_id>/menus/dishes/<dishes_id>``
 
-### Order
+### Order <br />
 Return a JSON object with all attributes of all orders:<br />
 - GET ``/orders``<br />
 Return a JSON object with all the orders’ attributes of a orderID:<br />
@@ -66,7 +66,7 @@ Add an order for a specific store:<br />
 Delete an order for a specific store:<br />
 - DELETE ``/deleteorder/orders/<OrderID>``
 
-### Store
+### Store <br />
 Return a JSON object with all attributes of all store sort by store_id:<br />
 - GET ``/stores``<br />
 Return a JSON object with all attributes of a specific store:<br />
