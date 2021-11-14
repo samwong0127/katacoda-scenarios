@@ -1,7 +1,5 @@
 ## Alert Manager
 
-Open a new window
-
 1.  View the Promethuse at localhost:9090:
     https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com
 

@@ -1,7 +1,5 @@
 ## ELK
 
-Open a new window or click 'Kibana', which is on the right of the terminal to access Kibana
-
 1.  View the Kibana at localhost:5601:
     https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com
 
