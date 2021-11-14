@@ -46,15 +46,7 @@
     }
   },
   "environment": {
-    "showdashboard": true,
-    "dashboards": [
-      {"name": "Kibana", "href": "https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com"},
-      {"name": "Grafana", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"},
-      {"name": "Prometheus", "href": "https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com"},
-      {"name": "Prometheus alert manager", "href": "https://[[HOST_SUBDOMAIN]]-9093-[[KATACODA_HOST]].environments.katacoda.com"}
-    
-    ],
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
