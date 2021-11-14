@@ -17,11 +17,12 @@ Open a new window
 
 5.  Now, we simulate there is too many error response (4xx/5xx).
     1.  Back to the Katacoda webpage, open a new terminal.
-        ![Katacoda Logo](./assets/step7/New_Terminal.JPG)
+        ![Katacoda Logo](./assets/step7/New_Terminal.jpg)
 
     2.  Run few error request to make the error reponse > 5%
-        `curl http://localhost:20080/menu/stores/123/menus` {{execute}}
-        `curl http://localhost:20080/menu/stores/123/menus` {{execute}}
+        `curl http://localhost:20080/menu/stores/123/menus`{{execute}}
+        `curl http://localhost:20080/menu/stores/123/menus`{{execute}}
+
         ![Katacoda Logo](./assets/step7/Prometheus_Alerts_ErrorCode.jpg)
 
     3.  Wait ~ 30s, back to the promethus 
@@ -43,6 +44,7 @@ Open a new window
 
     2.  Remove either one microservice container
         `docker rm -f api_menu`{{execute}}
+
         ![Katacoda Logo](./assets/step7/Prometheus_DeleteContainer.jpg)
 
     3.  Wait ~ 1min, back to the promethus 
