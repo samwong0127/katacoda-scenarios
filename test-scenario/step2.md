@@ -9,6 +9,6 @@
     `cd FatboyEat`{{execute}}
 
 4.  Run the test
-    `pytest tests/unit.py`{{execute}}
+    `pytest -v tests/unit.py`{{execute}}
     If all the test are passed, the terminal will display '30 passed'.
     ![Katacoda Logo](./assets/step2/pytest.jpg)
